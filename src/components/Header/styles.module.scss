@@ -1,0 +1,27 @@
+.header {
+  background-color: #181c23;
+  color: white;
+}
+
+.container {
+  max-width: 1240px;
+  padding: 0 2rem;
+  margin: 0 auto;
+
+  div:first-child {
+    //esse first child é para pegar apenas a primeira div
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  div:last-child {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+
+    transform: translateY(
+      50%
+    ); //esse codigo que faz os articles ficarem no meio da div header
+  }
+}

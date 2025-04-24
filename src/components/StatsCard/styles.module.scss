@@ -1,0 +1,26 @@
+.stats_card {
+  background-color: #314da6;
+  color: white;
+  width: 100%;
+  padding: 1.5rem;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+  transition: transform 0.3s; /* Animação ao passar o mouse */
+
+  h2 {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+    line-height: 1;
+  }
+
+  span {
+    font-size: 3.5rem;
+    line-height: 1;
+    font-weight: bold;
+  }
+}
+
+.stats_card:hover {
+  transform: translateY(-3px); /* Leve elevação no hover */
+}
